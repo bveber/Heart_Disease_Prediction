@@ -43,7 +43,7 @@ def main(StringData):
     inputData = [float(elem) for elem in inputData]
     scaledData = normalizeTest(inputData,modeller['scaler'],modeller['encoder'])
     prediction = modeller['model'].predict_proba(scaledData)
-    print(str(prediction[0][1]))
+    print("\n%-30s%-4.2f%-1s"%('Likelihood of Heart Disease is ',100*prediction[0][1],'%'))
 
 def makeModel(filename=None):
     """This makes a SVM model from the saved data and saves the model
@@ -219,3 +219,7 @@ def getFilename():
     root.destroy()
     #################
     return(fname)
+
+if __name__ == "__main__":
+    inputs = ' '.join(sys.argv[1:])
+    main(inputs)
