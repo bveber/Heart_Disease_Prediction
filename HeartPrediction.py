@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 import pandas as pd
 import numpy as np
 from sklearn import preprocessing, cross_validation, svm, ensemble, neighbors, metrics, grid_search
@@ -16,7 +18,7 @@ make predictions for presence of heart disease based on Cleveland dataset.
 
 Author:        Brandon Veber
 Date Created:  6/12/2015
-Last Modified: 6/12/2015
+Last Modified: 6/21/2015
 
 Dependencies:
     sklearn-0.16
@@ -37,13 +39,13 @@ def main(StringData):
    Outputs:
       The probability of the presence of heart disease
     """
-    if not os.path.isfile('/'.join((os.getcwd(),'HeartPrediction.p'))): makeModel()
+    if not os.path.isfile('/'.join((os.path.dirname(os.path.realpath(__file__)),'HeartPrediction.p'))): makeModel()
     modeller = pickle.load(open('HeartPrediction.p','rb'))
     inputData = StringData.split(' ')
     inputData = [float(elem) for elem in inputData]
     scaledData = normalizeTest(inputData,modeller['scaler'],modeller['encoder'])
     prediction = modeller['model'].predict_proba(scaledData)
-    print("\n%-30s%-4.2f%-1s"%('Likelihood of Heart Disease is ',100*prediction[0][1],'%'))
+    print("%-30s%-4.2f%-1s"%('Likelihood of Heart Disease is ',100*prediction[0][1],'%'))
 
 def makeModel(filename=None):
     """This makes a SVM model from the saved data and saves the model
@@ -78,7 +80,7 @@ def analysis(filename=None,verbose=0):
     if verbose >= 0:
         print("%-15s%-15s%-15s%-15s"%('Avg Accuracy', 'Avg Recall', 'Avg Precision','Avg ROC_AUC'))
         print("%-15.3f%-15.3f%-15.3f%-15.3f"%(np.mean(score[0]),np.mean(score[1]),np.mean(score[2]),np.mean(score[3])))
-    print('Runtime is ',time.time()-t0,'(s)')
+    #print('Runtime is ',time.time()-t0,'(s)')
     return(score)
 
 def crossValidate(data,verbose=0):

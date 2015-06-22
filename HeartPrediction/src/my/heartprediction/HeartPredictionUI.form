@@ -1,0 +1,612 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Component class="javax.swing.ButtonGroup" name="sexButtonGroup">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="cpButtonGroup">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="ecgButtonGroup">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="exerButtonGroup">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="slopeButtonGroup">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="thalButtonGroup">
+    </Component>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jScrollPane1" alignment="0" pref="709" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="jScrollPane1" pref="1006" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="jPanel1">
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jSeparator8" alignment="0" max="32767" attributes="0"/>
+                          <Component id="jSeparator10" alignment="0" max="32767" attributes="0"/>
+                          <Component id="jSeparator11" alignment="0" max="32767" attributes="0"/>
+                          <Component id="jSeparator4" alignment="0" max="32767" attributes="0"/>
+                          <Component id="jSeparator5" alignment="0" max="32767" attributes="0"/>
+                          <Component id="jSeparator6" alignment="0" max="32767" attributes="0"/>
+                          <Component id="jSeparator7" alignment="0" max="32767" attributes="0"/>
+                          <Component id="jSeparator2" alignment="0" max="32767" attributes="0"/>
+                          <Component id="jSeparator3" alignment="0" max="32767" attributes="0"/>
+                          <Component id="jSeparator1" alignment="1" max="32767" attributes="0"/>
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jSeparator9" min="-2" pref="516" max="-2" attributes="0"/>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="174" max="-2" attributes="0"/>
+                                      <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="caLabel" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="vesselsComboBox" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="hrLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="exangLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="oldPeakLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="slopeLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <EmptySpace min="-2" pref="44" max="-2" attributes="0"/>
+                                              <Component id="hrTextField" min="-2" pref="60" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
+                                              <Component id="oldpeakTextField" min="-2" pref="60" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <EmptySpace min="-2" pref="41" max="-2" attributes="0"/>
+                                              <Component id="exer_y" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                                              <Component id="exer_n" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+                                              <Component id="slope_up" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Component id="slope_down" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="slope_flat" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                          </Group>
+                                      </Group>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="ecgLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="fbsLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="cholLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="trestbpsLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <EmptySpace min="-2" pref="156" max="-2" attributes="0"/>
+                                              <Component id="trestbpsTextField" min="-2" pref="60" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <EmptySpace min="-2" pref="154" max="-2" attributes="0"/>
+                                              <Component id="cholTextField" min="-2" pref="60" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <EmptySpace min="-2" pref="154" max="-2" attributes="0"/>
+                                              <Component id="fbsTextField" min="-2" pref="60" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <EmptySpace min="-2" pref="152" max="-2" attributes="0"/>
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Component id="ecg_ab" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="ecg_normal" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="ecg_estes" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                          </Group>
+                                      </Group>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="ageLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="sexLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Group type="102" attributes="0">
+                                              <EmptySpace min="-2" pref="271" max="-2" attributes="0"/>
+                                              <Component id="ageTextField" min="-2" pref="60" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <EmptySpace min="-2" pref="266" max="-2" attributes="0"/>
+                                              <Component id="male" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                              <Component id="female" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                  </Group>
+                                  <Component id="jSeparator12" alignment="0" min="-2" pref="524" max="-2" attributes="0"/>
+                                  <Component id="jSeparator13" alignment="0" min="-2" pref="492" max="-2" attributes="0"/>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="cpLabel" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="204" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="atyp_ang" min="-2" max="-2" attributes="0"/>
+                                          <Component id="typ_ang" min="-2" max="-2" attributes="0"/>
+                                          <Component id="non_typ_ang" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="asym" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+                                      <Component id="jScrollPane2" min="-2" pref="410" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="thalLabel" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="180" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="thal_fixed" min="-2" max="-2" attributes="0"/>
+                                          <Component id="thal_normal" min="-2" max="-2" attributes="0"/>
+                                          <Component id="thal_rev" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                              <EmptySpace pref="287" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="ageLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="ageTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jSeparator13" min="-2" pref="10" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="sexLabel" alignment="3" min="-2" pref="35" max="-2" attributes="0"/>
+                          <Component id="male" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="female" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jSeparator12" min="-2" pref="10" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="cpLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="typ_ang" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="atyp_ang" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="non_typ_ang" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="asym" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="13" max="-2" attributes="0"/>
+                      <Component id="jSeparator11" min="-2" pref="11" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="2" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="trestbpsLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="trestbpsTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jSeparator10" min="-2" pref="10" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="2" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="cholLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="cholTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jSeparator9" min="-2" pref="10" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="fbsLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="fbsTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="3" max="-2" attributes="0"/>
+                      <Component id="jSeparator8" min="-2" pref="10" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="ecgLabel" min="-2" max="-2" attributes="0"/>
+                          <Component id="ecg_normal" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="ecg_ab" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="ecg_estes" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="13" max="-2" attributes="0"/>
+                      <Component id="jSeparator7" min="-2" pref="10" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="hrLabel" min="-2" max="-2" attributes="0"/>
+                          <Component id="hrTextField" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jSeparator6" min="-2" pref="10" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="exangLabel" min="-2" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="exer_y" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="exer_n" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
+                      <Component id="jSeparator5" min="-2" pref="10" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="oldPeakLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="oldpeakTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="4" max="-2" attributes="0"/>
+                      <Component id="jSeparator4" min="-2" pref="10" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="slopeLabel" min="-2" max="-2" attributes="0"/>
+                          <Component id="slope_up" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="slope_flat" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="slope_down" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace pref="6" max="32767" attributes="0"/>
+                      <Component id="jSeparator3" min="-2" pref="10" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="4" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="caLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="vesselsComboBox" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="3" max="-2" attributes="0"/>
+                      <Component id="jSeparator2" min="-2" pref="10" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="4" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="thalLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="thal_normal" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="thal_fixed" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="thal_rev" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+                      <Component id="jSeparator1" min="-2" pref="2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                      <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="jScrollPane2" min="-2" pref="71" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="61" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="ageLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Age"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="ageTextField">
+            </Component>
+            <Component class="javax.swing.JLabel" name="sexLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Sex"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="cpLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Chest Pain Type"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="trestbpsTextField">
+            </Component>
+            <Component class="javax.swing.JLabel" name="trestbpsLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&lt;html&gt;Resting blood pressure&lt;br&gt;(in mm Hg on admission)&lt;/html&gt;"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="cholTextField">
+            </Component>
+            <Component class="javax.swing.JLabel" name="cholLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Serum cholestoral (mg/dl)"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="fbsLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Fasting blood sugar (mg/dl)"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="fbsTextField">
+            </Component>
+            <Component class="javax.swing.JLabel" name="ecgLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Resting ECG results"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="hrLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Maximum heart rate achieved"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="hrTextField">
+            </Component>
+            <Component class="javax.swing.JLabel" name="exangLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Exercise induce angina"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="oldPeakLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="ST depression induced by exercise relative to rest"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="oldpeakTextField">
+            </Component>
+            <Component class="javax.swing.JLabel" name="slopeLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Slope of the peak exercise ST segment"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="caLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Number of major vessels (0-3) colored by flouroscopy"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="thalLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Thallium heart scan"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JSeparator" name="jSeparator1">
+            </Component>
+            <Component class="javax.swing.JSeparator" name="jSeparator2">
+            </Component>
+            <Component class="javax.swing.JSeparator" name="jSeparator3">
+            </Component>
+            <Component class="javax.swing.JSeparator" name="jSeparator4">
+            </Component>
+            <Component class="javax.swing.JSeparator" name="jSeparator5">
+            </Component>
+            <Component class="javax.swing.JSeparator" name="jSeparator6">
+            </Component>
+            <Component class="javax.swing.JSeparator" name="jSeparator7">
+            </Component>
+            <Component class="javax.swing.JSeparator" name="jSeparator8">
+            </Component>
+            <Component class="javax.swing.JSeparator" name="jSeparator9">
+            </Component>
+            <Component class="javax.swing.JSeparator" name="jSeparator10">
+            </Component>
+            <Component class="javax.swing.JSeparator" name="jSeparator11">
+            </Component>
+            <Component class="javax.swing.JSeparator" name="jSeparator12">
+            </Component>
+            <Component class="javax.swing.JSeparator" name="jSeparator13">
+            </Component>
+            <Component class="javax.swing.JButton" name="jButton1">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Submit"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+              </Events>
+            </Component>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextArea" name="jTextArea1">
+                  <Properties>
+                    <Property name="columns" type="int" value="20"/>
+                    <Property name="rows" type="int" value="5"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Component class="javax.swing.JRadioButton" name="male">
+              <Properties>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="sexButtonGroup"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Male"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="female">
+              <Properties>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="sexButtonGroup"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Female"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="typ_ang">
+              <Properties>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="cpButtonGroup"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Typical angina"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="atyp_ang">
+              <Properties>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="cpButtonGroup"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Atypical angina"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="non_typ_ang">
+              <Properties>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="cpButtonGroup"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Non-anginal pain"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="asym">
+              <Properties>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="cpButtonGroup"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Asymptomatic"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="ecg_normal">
+              <Properties>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="ecgButtonGroup"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Normal"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="ecg_ab">
+              <Properties>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="ecgButtonGroup"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="&lt;html&gt;ST-T wave abnormality (T-wave inversions and/or&lt;br&gt;ST elevation or depression of &gt; 0.05 mV"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="ecg_estes">
+              <Properties>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="ecgButtonGroup"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="&lt;html&gt;Probable or definite left ventricular hypertrophy&lt;br&gt; by Estes&apos; criteria&lt;/html&gt;"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="exer_y">
+              <Properties>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="exerButtonGroup"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Yes"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="exer_n">
+              <Properties>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="exerButtonGroup"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="No"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="slope_up">
+              <Properties>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="slopeButtonGroup"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Upsloping"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="slope_flat">
+              <Properties>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="slopeButtonGroup"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Flat"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="slope_down">
+              <Properties>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="slopeButtonGroup"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Downsloping"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="vesselsComboBox">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="4">
+                    <StringItem index="0" value="0"/>
+                    <StringItem index="1" value="1"/>
+                    <StringItem index="2" value="2"/>
+                    <StringItem index="3" value="3"/>
+                  </StringArray>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="thal_normal">
+              <Properties>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="thalButtonGroup"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Normal"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="thal_fixed">
+              <Properties>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="thalButtonGroup"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Fixed defect"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="thal_rev">
+              <Properties>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="thalButtonGroup"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Reversible defect"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
